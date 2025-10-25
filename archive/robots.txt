@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ronjaknudtsen.github.io/ingar.knudtsen/archive/sitemap.xml

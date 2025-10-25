@@ -2,22 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/mork_middelalder_nr2/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/ideologi_politkk_og_marked/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/tro_eller_viten/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/katten_og_den_nakne_apen/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/objektivitetens_plagsomme_subjektivitet/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/den_snublede_sannhet/</loc>
@@ -38,6 +26,18 @@
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/et_enklere_liv/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/ideologi_politkk_og_marked/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/katten_og_den_nakne_apen/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/la_gaupa_i_fred_for_i_helvete/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -47,10 +47,16 @@
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/liv_og_tanke/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/made_in_prc/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/madia_russland_og_ukraina/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/media_russland_og_ukraina/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/mork_middelalder_nr2/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/2014/nar_pengemakt_tenker/</loc>
@@ -65,6 +71,9 @@
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/treverkets_gaate/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/tro_eller_viten/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/la_gaupa_vere/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -75,15 +84,6 @@
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/vi_mennesker_vi_aper/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2014/made_in_prc/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2013/marg-hoved/</loc>
@@ -122,6 +122,9 @@
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2013/min_hjemmeside/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/minneord/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/2013/retturett/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -147,9 +150,6 @@
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2013/tro/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/minneord/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2012/brennhette/</loc>
@@ -254,6 +254,9 @@
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2009/taletilspaniakjemperne/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/brev/2008/brev0108/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -264,6 +267,9 @@
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/2008/endromomvietnam/</loc>
+    <lastmod>2008-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/ensomhetenerensang/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/2008/ensomhetenerensang/</loc>
@@ -296,9 +302,6 @@
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/minneord/2007/tronogrim/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2006/frihetdemokrati/</loc>
-    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2006/arbetaren/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -321,6 +324,9 @@
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2006/ik-fascismen/</loc>
+    <lastmod>2006-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2006/frihetdemokrati/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2006/fundafascisme/</loc>
@@ -473,6 +479,9 @@
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/2003/rodstormslipp/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/rodstorm/</loc>
+    <lastmod>2003-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/2003/rodstormomtale/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -516,6 +525,12 @@
     <lastmod>2002-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/minneord/2002/gaia/</loc>
+    <lastmod>2002-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/gjenferdet/</loc>
+    <lastmod>2002-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/gudinnasdotre/</loc>
     <lastmod>2002-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/2002/kampomfortid/</loc>
@@ -564,6 +579,9 @@
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/2001/holimali/</loc>
+    <lastmod>2001-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/amasoner/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/2001/amasoneslipp/</loc>
@@ -863,6 +881,9 @@
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/9899/kunst/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/mmsh/</loc>
+    <lastmod>1999-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/9899/hvabetyrdet/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -881,18 +902,73 @@
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/9899/russland/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/iflagget/</loc>
+    <lastmod>1998-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/minneord/1998/luci/</loc>
     <lastmod>1998-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/ansiktet/</loc>
+    <lastmod>1997-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/nattutennavn/</loc>
+    <lastmod>1996-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/foratjeg/</loc>
+    <lastmod>1995-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/genferdet/</loc>
+    <lastmod>1995-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/havheksen/</loc>
+    <lastmod>1993-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/skumring/</loc>
+    <lastmod>1993-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/nordforsaigon/</loc>
+    <lastmod>1992-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/kalissang/</loc>
+    <lastmod>1991-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/evigskogen/</loc>
+    <lastmod>1990-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/lovinnens/</loc>
+    <lastmod>1990-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/rodmane/</loc>
+    <lastmod>1989-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/tryllekunst/</loc>
+    <lastmod>1987-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/vapensostrene/</loc>
+    <lastmod>1987-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/pandorasplanet/</loc>
+    <lastmod>1986-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/operasjonares/</loc>
+    <lastmod>1984-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/reisen/</loc>
+    <lastmod>1981-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/kampenommars/</loc>
+    <lastmod>1979-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/tova/</loc>
+    <lastmod>1979-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/tyrannosaurus/</loc>
+    <lastmod>1978-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/dimensjons/</loc>
+    <lastmod>1975-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/musikkspill/jentamedsverdet-film/</loc>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/</loc>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/andreanicolaysencarlsson-ik/</loc>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/categories/</loc>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/dikteventyr/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/bilder/ae-ytringsfrihet-stor/</loc>
   </url><url>
@@ -906,7 +982,11 @@
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/amasonereklame/</loc>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/</loc>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/aanden/</loc>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/andreanicolaysencarlsson-ik/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/romaner/ansiktet-es/</loc>
   </url><url>
@@ -914,9 +994,15 @@
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/begravelsen/</loc>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/categories/</loc>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/dikteventyr/dikt/bankett/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/detvarengang/</loc>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/dikteventyr/</loc>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/dimensjons2012/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/dodskysten/</loc>
   </url><url>
@@ -938,15 +1024,27 @@
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/jegdjevel/</loc>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/jernringen/</loc>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/katjasverden/</loc>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/katteliv/</loc>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/kommentarer/bilder/ingar-ronja-gerd-stor/</loc>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/lasersesongen/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/dikteventyr/eventyr/fantasy-eventyr/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/dikteventyr/eventyr/jentamedsverdet/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/marerittstov/</loc>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/margrethejohansen-ik/</loc>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/musikkspill/</loc>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/nekromantiker/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/romaner/nordforsaigon/</loc>
   </url><url>
@@ -958,13 +1056,27 @@
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/planetfall/</loc>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/</loc>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/skolevei/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/slagetomvenus/</loc>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/marteandresen-ik/</loc>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/stinehansen-ik/</loc>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/tags/</loc>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/taaken/</loc>
   </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/tova2005/</loc>
+  </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/noveller/tunnelen/</loc>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/tyrannosaurus2008/</loc>
+  </url><url>
+    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/boker/underulvemanen/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/musikkspill/vapensostrene/</loc>
   </url><url>
@@ -975,18 +1087,6 @@
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/artikler/bilder/wandajackson-stor/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/whoaretheamazons/</loc>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/margrethejohansen-ik/</loc>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/musikkspill/</loc>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/romanernoveller/</loc>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/marteandresen-ik/</loc>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/stinehansen-ik/</loc>
-  </url><url>
-    <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/tags/</loc>
   </url><url>
     <loc>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/amasonene/yvonnestabell-ik-tab/</loc>
   </url>
