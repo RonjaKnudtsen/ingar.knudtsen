@@ -535,6 +535,46 @@ article {
   color: #e8e8e8;
 }
 
+/* Footer Section */
+.site-footer {
+  margin-top: 4rem;
+  padding: 2rem 0 1rem;
+  border-top: 1px solid #2a2a2a;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-content .contact {
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #c41e3a;
+}
+
+.footer-content p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.footer-content a {
+  color: #c41e3a;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.footer-content a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .hero .hero-title {
     font-size: 3rem;
