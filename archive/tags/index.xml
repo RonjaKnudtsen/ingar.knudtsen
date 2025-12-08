@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ingar Knudtsen Arkiv</title>
-    <link>https://ronjaknudtsen.github.io/ingar.knudtsen/archive/tags/</link>
+    <link>http://localhost:1313/archive/tags/</link>
     <description>Recent content in Tags on Ingar Knudtsen Arkiv</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nb</language>
-    <atom:link href="https://ronjaknudtsen.github.io/ingar.knudtsen/archive/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archive/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
