@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Søk i arkivet - Ingar Knudtsen Arkiv</title>
+
+    
+<meta name="description" content="Det offisielle arkivet til den norske forfatteren Ingar Knudtsen (1944-2025). Utforsk bøker, artikler, brev, dikteventyr og mer.">
+<meta name="author" content="Ingar Knudtsen">
+<meta name="keywords" content="Ingar Knudtsen, forfatter, norsk litteratur, fantasy, science fiction, amasonene, amasoner">
+
+
+
+
+  
+
+<link rel="canonical" href="https://ingar.knudtsen.no/archive/sok/">
+
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ingar.knudtsen.no/archive/sok/">
+<meta property="og:title" content="Søk i arkivet - Ingar Knudtsen Arkiv">
+<meta property="og:description" content="Det offisielle arkivet til den norske forfatteren Ingar Knudtsen (1944-2025). Utforsk bøker, artikler, brev, dikteventyr og mer.">
+<meta property="og:site_name" content="Ingar Knudtsen Arkiv">
+<meta property="og:locale" content="nb_NO">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Søk i arkivet">
+<meta name="twitter:description" content="Det offisielle arkivet til den norske forfatteren Ingar Knudtsen (1944-2025). Utforsk bøker, artikler, brev, dikteventyr og mer.">
+
+
+
+
+
+
+
+
+<meta name="robots" content="index, follow">
+
+
+<meta http-equiv="content-language" content="nb">
+
+
+    <link rel="stylesheet" href="../css/archive.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h1><a href="../">Ingar Knudtsen<br><span>Arkiv</span></a></h1>
+        </div>
+
+        <div class="sidebar-search">
+            <form action="../sok/" method="get" class="sidebar-search-form">
+                <input type="text" name="q" class="sidebar-search-input" placeholder="Søk i arkivet..." autocomplete="off">
+                <button type="submit" class="sidebar-search-button">SØK</button>
+            </form>
+        </div>
+
+        <nav class="sidebar-nav">
+            
+            <div class="nav-section">
+                <h3><a href="../boker/">Bøker</a></h3>
+            </div>
+            
+            <div class="nav-section">
+                <h3><a href="../artikler/">Artikler</a></h3>
+            </div>
+            
+            <div class="nav-section">
+                <h3><a href="../amasonene/">Amasonene</a></h3>
+            </div>
+            
+            <div class="nav-section">
+                <h3><a href="../brev/">Brev</a></h3>
+            </div>
+            
+            <div class="nav-section">
+                <h3><a href="../kommentarer/">Kommentarer</a></h3>
+            </div>
+            
+            <div class="nav-section">
+                <h3><a href="../dikteventyr/">Dikt &amp; Eventyr</a></h3>
+            </div>
+            
+            <div class="nav-section">
+                <h3><a href="../romanernoveller/">Romaner &amp; Noveller</a></h3>
+            </div>
+            
+            <div class="nav-section">
+                <h3><a href="../minneord/">Minneord</a></h3>
+            </div>
+            
+            <div class="nav-section">
+                <h3><a href="../musikkspill/">Musikkspill</a></h3>
+            </div>
+            
+        </nav>
+    </aside>
+
+    <main class="content">
+        
+<article>
+    <div class="article-header">
+        <h1 class="article-title">Søk i arkivet</h1>
+    </div>
+
+    <input type="text" id="search-input" class="search-page-input"
+           placeholder="Søk etter artikler, kommentarer, brev..." autocomplete="off" autofocus>
+
+    <p id="search-status"></p>
+    <ul id="search-results" class="content-list"></ul>
+</article>
+
+<script>
+(function () {
+    var input = document.getElementById('search-input');
+    var results = document.getElementById('search-results');
+    var status = document.getElementById('search-status');
+    var pages = [];
+
+    function normalize(str) {
+        return (str || '').toLowerCase().replace(/[^a-z0-9æøå]/g, ' ');
+    }
+
+    function escapeHTML(str) {
+        return (str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function highlight(str, tokens) {
+        var out = escapeHTML(str);
+        tokens.forEach(function (t) {
+            var re = new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+            out = out.replace(re, '<mark>$1</mark>');
+        });
+        return out;
+    }
+
+    function excerpt(content, tokens) {
+        var norm = normalize(content);
+        var firstPos = -1;
+        tokens.forEach(function (t) {
+            var pos = norm.indexOf(t);
+            if (pos !== -1 && (firstPos === -1 || pos < firstPos)) firstPos = pos;
+        });
+        if (firstPos === -1) return '';
+        var start = Math.max(0, firstPos - 80);
+        var end = Math.min(content.length, firstPos + 200);
+        var snip = (start > 0 ? '…' : '') + content.slice(start, end) + (end < content.length ? '…' : '');
+        return highlight(snip, tokens);
+    }
+
+    function score(p, tokens) {
+        var title = normalize(p.title);
+        var desc = normalize(p.description);
+        var content = normalize(p.content);
+        var s = 0;
+        tokens.forEach(function (t) {
+            if (title.indexOf(t) !== -1) s += 10;
+            if (desc.indexOf(t) !== -1) s += 5;
+            var pos = 0;
+            while ((pos = content.indexOf(t, pos)) !== -1) { s += 1; pos += t.length; }
+        });
+        if (tokens.every(function (t) { return title.indexOf(t) !== -1; })) s += 20;
+        return s;
+    }
+
+    function search(query) {
+        var tokens = normalize(query).split(/\s+/).filter(function (t) { return t.length > 0; });
+        if (!tokens.length) {
+            results.innerHTML = '';
+            status.textContent = '';
+            return;
+        }
+        var hits = pages.filter(function (p) {
+            var text = normalize(p.title + ' ' + p.description + ' ' + p.content);
+            return tokens.every(function (t) { return text.indexOf(t) !== -1; });
+        }).sort(function (a, b) { return score(b, tokens) - score(a, tokens); });
+        status.textContent = hits.length + ' treff';
+        if (!hits.length) {
+            results.innerHTML = '<li style="color:#a8a8a8;padding:1rem 0">Ingen artikler funnet.</li>';
+            return;
+        }
+        results.innerHTML = hits.map(function (p) {
+            var section = p.section ? p.section.charAt(0).toUpperCase() + p.section.slice(1) : '';
+            var snip = excerpt(p.content, tokens);
+            return '<li><a href="' + p.url + '">' +
+                '<h3>' + highlight(p.title, tokens) + '</h3>' +
+                '<span class="full-date">' + section + '</span>' +
+                (snip ? '<p class="search-excerpt">' + snip + '</p>' : '') +
+                '</a></li>';
+        }).join('');
+    }
+
+    var q = new URLSearchParams(window.location.search).get('q') || '';
+
+    fetch('https:\/\/ingar.knudtsen.no\/archive\//index.json')
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+            pages = data;
+            if (q) { input.value = q; search(q); }
+        });
+
+    input.addEventListener('input', function () {
+        var val = this.value;
+        var url = new URL(window.location);
+        url.searchParams.set('q', val);
+        history.replaceState(null, '', url);
+        search(val);
+    });
+
+    input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') e.preventDefault();
+    });
+})();
+</script>
+
+    </main>
+</body>
+</html>
