@@ -423,6 +423,16 @@ article {
   font-size: 0.875rem;
   color: #a8a8a8;
 }
+.book-card .download-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: #c41e3a;
+  text-decoration: underline;
+}
+.book-card .download-link:hover {
+  color: #e8e8e8;
+}
 
 .links-section {
   margin-bottom: 4rem;
