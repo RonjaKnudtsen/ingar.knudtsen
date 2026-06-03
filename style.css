@@ -400,7 +400,7 @@ article {
   text-align: center;
   transition: transform 0.3s ease;
 }
-.book-card:hover {
+a.book-card:hover {
   transform: translateY(-8px);
 }
 .book-card img {
@@ -427,7 +427,7 @@ article {
   display: inline-block;
   margin-top: 0.75rem;
   font-size: 0.875rem;
-  color: #c41e3a;
+  color: #d99292;
   text-decoration: underline;
 }
 .book-card .download-link:hover {
