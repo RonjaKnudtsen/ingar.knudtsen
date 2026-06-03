@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//mnt/c/Users/ronja/apps/ingar-knudtsen/archive/content/boker/**)",
+      "Read(//mnt/c/Users/ronja/apps/ingar-knudtsen/archive/layouts/_default/**)",
+      "Read(//mnt/c/Users/ronja/apps/ingar-knudtsen/archive/themes/ingar/**)"
+    ]
+  }
+}
