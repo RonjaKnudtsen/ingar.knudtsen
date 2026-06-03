@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="no">
-<head>
+<head><script src="/archive/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=archive/livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Søk i arkivet - Ingar Knudtsen Arkiv</title>
@@ -41,6 +41,8 @@
 
 
 <meta http-equiv="content-language" content="nb">
+
+
 
 
     <link rel="icon" type="image/svg+xml" href="../favicon.svg">
@@ -196,7 +198,7 @@
 
     var q = new URLSearchParams(window.location.search).get('q') || '';
 
-    fetch('https:\/\/ingar.knudtsen.no\/archive\//index.json')
+    fetch('http:\/\/localhost:1313\/archive\//index.json')
         .then(function (r) { return r.json(); })
         .then(function (data) {
             pages = data;
