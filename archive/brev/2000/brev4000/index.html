@@ -55,6 +55,15 @@
     <link rel="stylesheet" href="../../../css/archive.css">
 </head>
 <body>
+    <button class="menu-toggle" aria-label="Åpne meny">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <rect y="2" width="20" height="2.5" rx="1.25"/>
+        <rect y="8.75" width="20" height="2.5" rx="1.25"/>
+        <rect y="15.5" width="20" height="2.5" rx="1.25"/>
+      </svg>
+    </button>
+    <div class="sidebar-overlay"></div>
+
     <aside class="sidebar">
         <div class="sidebar-header">
             <h1><a href="../../../">Ingar Knudtsen<br><span>Arkiv</span></a></h1>
@@ -145,5 +154,20 @@
 </article>
 
     </main>
+    <script>
+    (function() {
+      var toggle = document.querySelector('.menu-toggle');
+      var sidebar = document.querySelector('.sidebar');
+      var overlay = document.querySelector('.sidebar-overlay');
+      toggle.addEventListener('click', function() {
+        sidebar.classList.toggle('is-open');
+        overlay.classList.toggle('is-active');
+      });
+      overlay.addEventListener('click', function() {
+        sidebar.classList.remove('is-open');
+        overlay.classList.remove('is-active');
+      });
+    })();
+    </script>
 </body>
 </html>
