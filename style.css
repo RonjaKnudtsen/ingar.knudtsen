@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -390,6 +391,17 @@ article {
 
 .books-section {
   margin-bottom: 5rem;
+}
+
+.video-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.video-container video {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .books-grid {

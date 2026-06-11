@@ -113,7 +113,7 @@ a:visited {
 }
 
 .sidebar-header {
-  padding: 0 2rem 2rem;
+  padding: 0 2rem 1rem;
   border-bottom: 1px solid #2a2a2a;
 }
 .sidebar-header h1 {
@@ -659,7 +659,7 @@ mark {
     transform: translateX(0);
   }
 
-  .sidebar-header {
+  .sidebar-home-link {
     padding-top: 4.5rem;
   }
 
@@ -672,18 +672,21 @@ mark {
   .menu-toggle {
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 0.4rem;
     position: fixed;
     top: 1rem;
     left: 1rem;
     z-index: 300;
-    width: 2.5rem;
     height: 2.5rem;
+    padding: 0 0.75rem;
     background: #1a1a1a;
     border: 1px solid #2a2a2a;
     border-radius: 4px;
     cursor: pointer;
     color: #e8e8e8;
+    font-size: 0.8rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    letter-spacing: 0.05em;
   }
 
   .menu-toggle:hover {
@@ -698,4 +701,44 @@ mark {
     gap: 1rem;
     flex-wrap: wrap;
   }
+}
+
+.archive-home {
+  padding: 2rem;
+}
+
+.archive-home h1 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 2rem;
+  color: #e8e8e8;
+  margin-bottom: 0.75rem;
+}
+
+.archive-home > p {
+  color: #a8a8a8;
+  margin-bottom: 2rem;
+}
+
+.archive-home-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.archive-home-link {
+  display: block;
+  padding: 1rem 1.25rem;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  color: #e8e8e8;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: "Georgia", "Times New Roman", serif;
+  transition: border-color 0.2s ease;
+}
+
+.archive-home-link:hover {
+  border-color: #c41e3a;
+  color: #e8e8e8;
 }
