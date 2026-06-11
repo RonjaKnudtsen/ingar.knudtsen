@@ -586,6 +586,9 @@ a.book-card:hover {
 }
 
 @media (max-width: 768px) {
+  .hero .hero-image {
+    max-width: 50%;
+  }
   .hero .hero-title {
     font-size: 3rem;
   }
