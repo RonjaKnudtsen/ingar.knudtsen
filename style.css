@@ -249,11 +249,11 @@ article {
 
 .hero {
   text-align: center;
-  padding: 6rem 0 4rem;
-  margin-bottom: 3rem;
+  padding: 2rem 0 2rem;
+  margin-bottom: 2rem;
 }
 .hero .hero-image{
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
 }
 .hero .hero-title {
@@ -639,3 +639,71 @@ table th, table td{
   border: 1px solid #ffffff27;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
 }
+
+.bio-skisse {
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  background: #1a1a1a;
+  padding: 1.5rem 2rem;
+}
+
+.bio-summary-text {
+  max-width: 700px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #c8c8c8;
+}
+
+.bio-skisse-title {
+  display: block;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.1rem;
+  color: #e8e8e8;
+  margin-bottom: 0.3rem;
+}
+
+.bio-skisse-byline {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #888;
+  margin-bottom: 0.85rem;
+}
+
+.bio-read-more {
+  display: inline;
+  background: none;
+  border: none;
+  padding: 0 0 0 0.3em;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e8e8e8;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.bio-read-more:hover { color: #c41e3a; }
+
+.bio-skisse-content {
+  display: none;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #2a2a2a;
+  max-width: 700px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #c8c8c8;
+}
+
+.bio-skisse.bio-open .bio-skisse-content { display: block; }
+
+.bio-summary-text p { margin-bottom: 0.75rem; }
+.bio-summary-text p:last-child { margin-bottom: 0; }
+
+.bio-skisse-content p { margin-bottom: 1.2rem; }
+.bio-skisse-content p:last-child { margin-bottom: 0; }
