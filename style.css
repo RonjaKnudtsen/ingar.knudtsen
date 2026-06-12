@@ -797,3 +797,38 @@ table th, table td{
   font-style: italic;
   color: #888;
 }
+
+/* Sjølbiografisk skisse: tokolonners layout med bildekolonne til høyre */
+.bio-columns {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.bio-text-col {
+  flex: 1;
+  min-width: 0;
+}
+
+.bio-photo-col {
+  width: 300px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.bio-photo-col .bio-figure {
+  margin: 0;
+}
+
+/* Kollapset kort: vis kun første bilde; resten følger «Les mer» */
+.bio-skisse:not(.bio-open) .bio-photo-col .bio-figure:not(:first-child) {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .bio-photo-col {
+    display: none;
+  }
+}
