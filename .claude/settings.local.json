@@ -5,7 +5,11 @@
       "Read(//mnt/c/Users/ronja/apps/ingar-knudtsen/archive/layouts/_default/**)",
       "Read(//mnt/c/Users/ronja/apps/ingar-knudtsen/archive/themes/ingar/**)",
       "Read(//mnt/c/Users/ronja/apps/ingar-knudtsen/archive/**)",
-      "Bash(hugo)"
+      "Bash(hugo)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s http://localhost:1313/archive/boker/)",
+      "Bash(curl -s http://localhost:1313/archive/boker/tova/)",
+      "Bash(curl -s http://localhost:1313/archive/css/archive.css)"
     ]
   }
 }

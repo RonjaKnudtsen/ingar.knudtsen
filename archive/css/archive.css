@@ -271,7 +271,7 @@ article {
   transition: border-color 0.3s ease;
 }
 .article-body a:hover {
-  border-bottom-color: #c41e3a;
+  border-bottom-color: #a8a8a8;
 }
 
 .article-footer {
@@ -445,17 +445,31 @@ article {
 
 .section-intro a:hover {
   text-decoration: underline;
+  text-decoration-color: #a8a8a8;
 }
 
 .books-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+.book-category {
+  margin: 3rem 0 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.book-category:first-of-type {
+  margin-top: 1.5rem;
 }
 
 .book-card {
   text-align: center;
   transition: transform 0.3s ease;
+  text-decoration: none;
 }
 .book-card:hover {
   transform: translateY(-8px);
@@ -759,5 +773,70 @@ mark {
 @media (max-width: 767px) {
   .archive-home-links {
     flex-direction: column;
+  }
+}
+
+/* Bøker-siden: intro venstre, oversatte noveller-boks høyre */
+.boker-intro-row {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  margin: 2rem 0 3.5rem;
+}
+
+.boker-intro-row .section-intro p {
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
+}
+
+.boker-intro-row .section-intro {
+  flex: 1;
+}
+
+.oversettelser-boks {
+  width: 320px;
+  flex-shrink: 0;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #a8a8a8;
+}
+
+.oversettelser-boks h2 {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.oversettelser-boks p {
+  margin-bottom: 1rem;
+}
+
+.oversettelser-boks a {
+  color: #c41e3a;
+  text-decoration: none;
+}
+
+.oversettelser-boks a:hover {
+  text-decoration: underline;
+  text-decoration-color: #a8a8a8;
+}
+
+.oversettelser-kilde {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 1023px) {
+  .boker-intro-row {
+    flex-direction: column;
+  }
+  .oversettelser-boks {
+    width: 100%;
   }
 }
