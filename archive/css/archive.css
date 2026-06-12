@@ -840,3 +840,12 @@ mark {
     width: 100%;
   }
 }
+
+/* Dikt: tett linjeavstand i stedet for avsnittsavstand */
+.article-body.dikt p {
+  margin-bottom: 0.4rem;
+}
+
+.article-body.dikt img {
+  margin-bottom: 1.5rem;
+}
