@@ -549,8 +549,14 @@ article {
     max-width: 200px;
   }
   .books-grid {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(85px, 1fr));
+    gap: 1rem;
+  }
+  .book-card h3 {
+    font-size: 0.85rem;
+  }
+  .book-card .book-year {
+    font-size: 0.75rem;
   }
 }
 

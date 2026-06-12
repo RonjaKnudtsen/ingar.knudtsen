@@ -802,7 +802,6 @@ table th, table td{
 .bio-columns {
   display: flex;
   gap: 2.5rem;
-  align-items: flex-start;
 }
 
 .bio-text-col {
@@ -815,6 +814,7 @@ table th, table td{
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 1.75rem;
 }
 
