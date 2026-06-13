@@ -837,7 +837,21 @@ table th, table td{
 }
 
 @media (max-width: 768px) {
+  .bio-columns {
+    flex-direction: column;
+  }
   .bio-photo-col {
-    display: none;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .bio-photo-col .bio-figure {
+    flex: 1 1 calc(50% - 0.5rem);
+    min-width: 140px;
+  }
+  .bio-photo-col .bio-figure img {
+    width: 100%;
+    height: auto;
   }
 }
