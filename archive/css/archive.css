@@ -220,7 +220,7 @@ article {
 }
 .article-header .article-title {
   font-family: "Georgia", "Times New Roman", serif;
-  font-size: 4.5rem;
+  font-size: 4.0rem;
   line-height: 1.2;
   margin-bottom: 0.5rem;
   color: #e8e8e8;
@@ -764,9 +764,13 @@ mark {
 
 .archive-home h1 {
   font-family: "Georgia", "Times New Roman", serif;
-  font-size: 2rem;
+  font-size: 4.0rem;
   color: #e8e8e8;
   margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 4.0rem;
 }
 
 .archive-home > p {
