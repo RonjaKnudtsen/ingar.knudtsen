@@ -31,6 +31,14 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+  .home-container{
+    margin:2rem 1rem;
+  }
+  .archive-cta{
+    padding: 1rem 2rem;
+  }
+}
 
 a {
   color: #c41e3a;
@@ -239,11 +247,12 @@ article {
 
 .homepage {
   display: block;
+  margin:0;
+  width:100%;
 }
 
 .home-container {
   max-width: 1200px;
-  width: 100%;
   margin: 0 auto;
   padding: 3rem 2rem;
 }
@@ -624,7 +633,7 @@ a.book-card:hover {
 .archive-cta {
   display: block;
   padding: 2.5rem 3rem;
-  background: #1a1a1a;
+  background: #6b1219;
   border: 2px solid #c41e3a;
   border-radius: 8px;
   text-decoration: none;
@@ -644,7 +653,7 @@ a.book-card:hover {
 }
 
 .archive-cta p {
-  color: #a8a8a8;
+  color: #f3dcdc;
   font-size: 1.05rem;
 }
 
@@ -666,7 +675,7 @@ table th, table td{
 .bio-summary-text {
   max-width: 700px;
   font-family: "Georgia", "Times New Roman", serif;
-  font-size: 1rem;
+  font-size: 1.15rem;
   line-height: 1.75;
   color: #c8c8c8;
 }
@@ -711,7 +720,7 @@ table th, table td{
   border-top: 1px solid #2a2a2a;
   max-width: 700px;
   font-family: "Georgia", "Times New Roman", serif;
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.8;
   color: #c8c8c8;
 }
