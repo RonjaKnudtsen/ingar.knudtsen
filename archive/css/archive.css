@@ -918,12 +918,71 @@ mark {
   margin: 2rem 0;
 }
 
-/* Noveller: introduksjonstekst før første overskrift vises diskret */
-.article-body.novelle p:has(~ h2) {
-  font-size: 0.95rem;
-  line-height: 1.6;
+/* Noveller: layout-rad med innhald og intro-boks som sidebar */
+.novelle-layout-row {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.novelle-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.novelle-intro-boks {
+  width: 300px;
+  flex-shrink: 0;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  font-size: 0.875rem;
   color: #a8a8a8;
-  margin-bottom: 1rem;
+  line-height: 1.6;
+  position: sticky;
+  top: 1rem;
+}
+
+.novelle-intro-boks p {
+  margin-bottom: 0.75rem;
+}
+
+.novelle-intro-boks p:last-child {
+  margin-bottom: 0;
+}
+
+.novelle-intro-boks a {
+  color: #c41e3a;
+  text-decoration: none;
+}
+
+.novelle-intro-boks a:hover {
+  text-decoration: underline;
+  text-decoration-color: #a8a8a8;
+}
+
+@media (max-width: 1023px) {
+  .novelle-layout-row {
+    flex-direction: column;
+  }
+  .novelle-intro-boks {
+    width: 100%;
+    position: static;
+    order: -1;
+  }
+}
+
+/* Døde lenker: `url` *(død lenke)* – dempet og liten */
+.article-body code {
+  font-size: 0.8rem;
+  color: #666;
+  font-family: monospace;
+}
+
+.article-body code + em {
+  font-size: 0.8rem;
+  color: #555;
 }
 
 /* Lister i artikler: gjenopprett venstremarg (nullstilles av global reset) */
