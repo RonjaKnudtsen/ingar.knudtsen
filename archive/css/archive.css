@@ -918,34 +918,22 @@ mark {
   margin: 2rem 0;
 }
 
-/* Noveller: layout-rad med innhald og intro-boks som sidebar */
-.novelle-layout-row {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-}
-
-.novelle-main {
-  flex: 1;
-  min-width: 0;
-}
-
+/* Noveller: intro-boks mellom overskrift og tekst */
 .novelle-intro-boks {
-  width: 300px;
-  flex-shrink: 0;
   background: #1a1a1a;
   border: 1px solid #2a2a2a;
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
   font-size: 0.875rem;
   color: #a8a8a8;
   line-height: 1.6;
-  position: sticky;
-  top: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .novelle-intro-boks p {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.6rem;
 }
 
 .novelle-intro-boks p:last-child {
@@ -960,17 +948,6 @@ mark {
 .novelle-intro-boks a:hover {
   text-decoration: underline;
   text-decoration-color: #a8a8a8;
-}
-
-@media (max-width: 1023px) {
-  .novelle-layout-row {
-    flex-direction: column;
-  }
-  .novelle-intro-boks {
-    width: 100%;
-    position: static;
-    order: -1;
-  }
 }
 
 /* Døde lenker: `url` *(død lenke)* – dempet og liten */
