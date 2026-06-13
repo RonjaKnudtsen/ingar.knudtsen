@@ -226,9 +226,7 @@ article {
 }
 
 .article-header {
-  margin-bottom: 3rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #2a2a2a;
+  margin-bottom: 2rem;
 }
 .article-header .article-title {
   font-family: "Georgia", "Times New Roman", serif;
