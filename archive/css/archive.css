@@ -769,9 +769,16 @@ mark {
   margin-bottom: 0.75rem;
 }
 
+@media (max-width: 767px) {
+  h1 {
+    font-size: 3.0rem;
+  }
+}
 h1 {
   font-size: 4.0rem;
+  line-height: 1;
 }
+
 
 .archive-home > p {
   color: #a8a8a8;
