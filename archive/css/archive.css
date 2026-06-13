@@ -451,7 +451,8 @@ article {
 .books-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1.5rem;
+  gap: 1.25rem;
+  max-width: 760px;
 }
 
 .book-category {
@@ -476,7 +477,8 @@ article {
 }
 .book-card img {
   width: 100%;
-  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   margin-bottom: 1rem;
@@ -854,4 +856,23 @@ mark {
 
 .article-body.dikt img {
   margin-bottom: 1.5rem;
+}
+
+/* Noveller: introduksjonstekst før første overskrift vises diskret */
+.article-body.novelle p:has(~ h2) {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #a8a8a8;
+  margin-bottom: 1rem;
+}
+
+/* Lister i artikler: gjenopprett venstremarg (nullstilles av global reset) */
+.article-body ol,
+.article-body ul {
+  margin: 0 0 1.5rem 0;
+  padding-left: 1.75rem;
+}
+
+.article-body li {
+  margin-bottom: 0.4rem;
 }

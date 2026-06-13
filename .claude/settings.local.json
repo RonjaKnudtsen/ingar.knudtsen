@@ -9,7 +9,10 @@
       "Bash(python3 -c ' *)",
       "Bash(curl -s http://localhost:1313/archive/boker/)",
       "Bash(curl -s http://localhost:1313/archive/boker/tova/)",
-      "Bash(curl -s http://localhost:1313/archive/css/archive.css)"
+      "Bash(curl -s http://localhost:1313/archive/css/archive.css)",
+      "Bash(python3)",
+      "Bash(curl -s http://localhost:1313/archive/boker/nattutennavn/)",
+      "Bash(curl -s http://localhost:1313/archive/boker/gudinnasdotre/)"
     ]
   }
 }
